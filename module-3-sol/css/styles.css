@@ -1,0 +1,59 @@
+body {
+  font-size: 14px;
+  color: black;
+  background-color: white;
+  font-family: 'Arial';
+}
+
+#header-nav {
+  background-color: lightgray;
+  border-radius: 0;
+  border: 0;
+  margin: 0;
+}
+
+#header-nav .container {
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.navbar-brand {
+  padding: 0;
+  height: 80px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-brand h1 {
+  float: left;
+  color: black;
+}
+
+#nav-list {
+  text-align: center;
+}
+
+#row {
+  width: 95%;
+}
+
+.box {
+  background-color: lightyellow;
+  border: solid;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 10px 10px 15px; 
+}
+
+.box > p {
+  margin: 0px;
+}
+
+h3 {
+  margin-top: 10px;
+}
